@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EliGTheme" parent="@style/Theme.Sherlock">
+        <item name="actionBarSize">40dip</item>
+        <item name="abBackground">@drawable/actionbar_background</item>
+        <item name="abTitle">@string/app_title</item>
+        <item name="selectableItemBackground">@color/actionbar_item_bg</item>
+        <item name="abTitleTextStyle">@style/TextAppearance.EliG.Widget.Title</item>
+    </style>
+
+    <style name="TextAppearance.EliG.Widget.Title" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">20dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/default_color</item>
+    </style>
+
+    <style name="textHeader" parent="android:Widget.TextView">
+        <item name="android:padding">5dip</item>
+        <item name="android:textSize">15dip</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textColor">@color/default_color</item>
+    </style>
+
+    <style name="mediumTex" parent="android:Widget.TextView">
+        <item name="android:textSize">12dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/default_color</item>
+    </style>
+
+</resources>

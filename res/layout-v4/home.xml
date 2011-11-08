@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <fragment
+        android:id="@+id/choiceFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="80dip"
+        class="net.clov3r.elig.fragment.BarChoiceFragment" />
+
+     <FrameLayout
+         android:id="@+id/content"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_below="@+id/choiceFragment" />
+    
+</RelativeLayout>

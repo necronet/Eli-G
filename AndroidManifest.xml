@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.clov3r.elig"
+    android:versionCode="10"
+    android:versionName="1.0.6" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="14" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/EliGTheme"
+        android:label="@string/app_name" >
+        
+        <provider android:name=".database.EliGContentProvider"
+			android:authorities="net.clov3r.elig" android:permission="net.clov3r.elig.WRITE_PERMISSION"></provider>
+        
+        <activity
+            android:label="@string/app_name"
+            android:name="net.clov3r.elig.HomeActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+                <activity
+            android:label="@string/app_name"
+            android:name=".TweetDetailActivity" >
+            <intent-filter >
+                <action android:name="net.clov3r.relig.TWEET_DETAIL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+
+        <service android:name=".LoaderService" />
+        <service android:name=".TwitterService" />
+        <service android:name=".CSEService" />
+
+    </application>
+
+</manifest>

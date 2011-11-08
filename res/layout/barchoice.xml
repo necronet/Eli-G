@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/radioGroupOptions"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bar_background"
+    android:orientation="horizontal" >
+
+    <net.clov3r.elig.widget.RadioButtonCenter
+        android:id="@+id/radioButtonTwitter"
+        android:layout_width="70dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/toggle_button_background"
+        android:button="@drawable/twitter_button"
+        android:checked="true"
+        android:gravity="center" />
+
+    <net.clov3r.elig.widget.RadioButtonCenter
+        android:id="@+id/radioSearchId"
+        android:layout_width="70dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/toggle_button_background"
+        android:button="@drawable/search_button"
+        android:gravity="center" />
+
+    <net.clov3r.elig.widget.RadioButtonCenter
+        android:id="@+id/radioButtonTrend"
+        android:layout_width="70dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/toggle_button_background"
+        android:button="@drawable/trend_button"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textFaltan"
+            android:paddingRight="5dip"
+            android:paddingTop="5dip"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/itstovote"
+            
+            android:textSize="10dip"
+            android:textColor="#565656"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/textCountDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            
+            android:text="9 Dias"
+            android:textSize="14dip"
+            android:textColor="#565656"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textElecciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/tovote"
+            android:paddingRight="5dip"
+            android:textSize="10dip"
+            android:textColor="#565656"
+             />
+        
+    </LinearLayout>
+
+</RadioGroup>

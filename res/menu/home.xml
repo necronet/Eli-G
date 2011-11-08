@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+    <item android:id="@+id/mnuCountDown" android:showAsAction="ifRoom|withText" android:title="@string/countdown" android:icon="@drawable/ic_action_countdown"></item><item android:id="@+id/mnuRefresh" android:icon="@drawable/ic_action_refresh" android:showAsAction="ifRoom|always|withText" android:title="Refresh"></item>
+
+</menu>

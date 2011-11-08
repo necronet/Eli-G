@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="server">INSERT_YOUR_SERVER_HERE</string>
+    <string name="app_name">Eli-G</string>
+    <string name="app_title">Eli-G</string>
+    <color name="default_color">#FFFFFF</color>
+    <color name="dark_color">#1D1D1D</color>
+    <color name="tweet_user_color">#2FB2EF</color>
+    
+    <string name="no_internet_available">No tiene acceso a internet</string>
+    <string name="no_result_yet">Aun no hay resultados disponibles</string>
+    <string name="no_news_yet">Noticias aún no disponibles </string>
+    <string name="shared_with">Compartir con</string>
+    <string name="almost_now">Ya casi tan solo</string>
+    <string name="countdown">Conteo</string>
+    <string name="tovote">para votar</string>
+    <string name="itstovote">Faltan</string>
+    <string name="type_id">Introduce tu c\u00E9dula</string>
+    <string name="cseserver">http://cse.gob.ni/</string>
+    <string name="cedula_no_valida">Formato c\u00E9dula inv\u00E1lida</string>
+    
+
+
+</resources>
